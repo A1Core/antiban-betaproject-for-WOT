@@ -1,1 +1,1 @@
-# antiban-betaproject-for-WOT
+# 🟡antiban-betaproject-for-WOT🟡
