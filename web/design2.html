@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>wgsoset</title>
+    <link rel="icon" type="image/png" href="icon.jpg">
+    <link rel="stylesheet"  href="css/design2.css">
+    <script src ="eel.js"></script>
+
+</head>
+<body>
+ <div align = "center">
+ <span><button class="btn btn-three" id="zapusk1">Безопасный запуск тонков</button></span>
+ <span><button class="btn btn-three" id="zapusk2">Нужно обновить клиент тунков</button></span>
+
+ </div>
+ </body>
+      <script
+  src="https://code.jquery.com/jquery-3.6.0.min.js"
+  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+  crossorigin="anonymous">
+      </script>
+
+ <script type="text/javascript"></script>
+<script>
+
+async function call(){
+ await eel.removerandlocker()
+}
+async function call1(){
+ await eel.mover()
+}
+
+
+$('#zapusk1').click(function(){
+    call();
+})
+$('#zapusk2').click(function(){
+    call1();
+})
+
+
+</script>
+</html>
